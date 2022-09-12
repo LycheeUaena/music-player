@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
+    "target": "ES6",
+    "module": "CommonJS",
     "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
@@ -9,6 +9,7 @@
         "src/*"
       ]
     },
+    "jsx": "preserve",
     "lib": [
       "esnext",
       "dom",
